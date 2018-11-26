@@ -1,0 +1,17 @@
+body {
+  background: rgb(19, 172, 172);
+  color: white;
+  display: block;
+  border-top: 0.5;
+  min-height: 100vh;
+  height: 100vh !important;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  color: black;
+  display: inline-flex;
+  text-align: center;
+}
