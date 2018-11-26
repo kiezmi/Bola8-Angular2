@@ -1,0 +1,12 @@
+<h1>Bienvenido a {{title}} a encontrar tus respuestas</h1>
+<div>
+  <p>Tus dudas seran disipadas</p>
+  <img src="../assets/background.jpeg" style="width: 15em">
+  <div>
+    <strong>Tu pregunta:</strong>
+  </div>
+  <input [(ngModel)]="texto" (keyup)="intro($event)">
+  <button (click)="boton($event)">Respuesta</button>
+  <p>Respuesta:</p>
+  <div *ngIf="starts">{{resultado[num]}}</div>
+</div>
